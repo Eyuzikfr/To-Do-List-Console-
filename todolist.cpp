@@ -77,7 +77,6 @@ int countTasks (const string& filename) {
         }
         return v.size();
     } else {
-        cout<<"Error reading file. Code: 4"<<endl;
         return 0;
     }
     ifile.close();
